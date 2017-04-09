@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/transactions_sum_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_sum_view"
+        android:layout_marginTop="@dimen/padding_sum_view"
+        android:gravity="center"
+        android:text="@string/transactions_sum_text"
+        android:textSize="@dimen/text_size_header"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/transaction_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/transactions_sum_view" />
+
+    <TextView
+        android:id="@+id/error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/transactions_error"
+        android:textSize="@dimen/text_size_error"
+        android:visibility="gone" />
+
+</RelativeLayout>

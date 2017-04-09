@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Badoo Transactions</string>
+    <string name="product_page_title">Products</string>
+    <string name="transactions_page_title">Transactions for %s</string>
+    <string name="product_count_text">%d transactions</string>
+    <string name="transactions_sum_text">Total: £%s </string>
+    <string name="transaction_conversion_text">£%s</string>
+    <string name="transaction_unconverted_text">%1$s%2$s</string>
+    <string name="products_error">No available products</string>
+    <string name="transactions_error">No conversion rates available</string>
+</resources>
